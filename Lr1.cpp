@@ -7,6 +7,7 @@ int main()
     char name[15];
     printf(" Enter your name: ");
     scanf("%s", name);
+    for (int i = 0; i < 5; i++)
     printf("\n Hello, %s!", name);
     _getch();
 }
