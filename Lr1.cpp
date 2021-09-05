@@ -14,5 +14,6 @@ int main()
     scanf("%d", &a);
     printf("\n Enter b: ");
     scanf("%d", &b);
+    printf(" a * b = %d", a*b);
     _getch();
 }
