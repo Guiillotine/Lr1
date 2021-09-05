@@ -5,9 +5,14 @@
 int main()
 {
     char name[15];
+    int a, b;
     printf(" Enter your name: ");
     scanf("%s", name);
     for (int i = 0; i < 5; i++)
     printf("\n Hello, %s!", name);
+    printf("\n Enter a: ");
+    scanf("%d", &a);
+    printf("\n Enter b: ");
+    scanf("%d", &b);
     _getch();
 }
